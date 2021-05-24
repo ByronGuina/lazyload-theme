@@ -1,0 +1,21 @@
+{
+    "name": "lazyload-theme",
+    "displayName": "LazyLoad Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "LazyLoad Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/lazyload-color-theme.json"
+            }
+        ]
+    }
+}
