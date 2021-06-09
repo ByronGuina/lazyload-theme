@@ -1260,7 +1260,7 @@
         },
         {
             "name": "brace round",
-            "scope": "meta.brace.round.js,meta.brace.round.jsx,meta.brace.round.ts,punctuation.definition.parameters.begin.tsx,punctuation.definition.parameters.end.tsx",
+            "scope": "meta.brace.round.js,meta.brace.round.jsx,meta.brace.round.ts,meta.brace.round.tsx,punctuation.definition.parameters.begin.tsx,punctuation.definition.parameters.end.tsx",
             "settings": {
                 "foreground": "#8e8e8e"
             }
@@ -1742,6 +1742,13 @@
         {
             "name": "meta.brace.square",
             "scope": [" meta.brace.square"],
+            "settings": {
+                "foreground": "#8e8e8e"
+            }
+        },
+        {
+            "name": "meta.brace.square ts",
+            "scope": "punctuation.definition.binding-pattern.array.tsx",
             "settings": {
                 "foreground": "#8e8e8e"
             }
