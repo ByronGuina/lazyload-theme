@@ -468,6 +468,13 @@
                 "foreground": "#e7cab2"
             }
         },
+        // {
+        //     "name": "TS generic braces",
+        //     "scope": "keyword.operator.relational.tsx,meta.var.expr.tsx",
+        //     "settings": {
+        //         "foreground": "#8e8e8e"
+        //     }
+        // },
         {
             "name": "C operator assignment",
             "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
@@ -1808,6 +1815,13 @@
             "scope": "variable.other.property.static.js,variable.other.property.ts,variable.other.property.tsx,variable.other.property.js",
             "settings": {
                 "foreground": "#9aabb7"
+            }
+        },
+        {
+            "name": "tsx optional chain",
+            "scope": "punctuation.accessor.optional.tsx",
+            "settings": {
+                "foreground": "#e7cab2"
             }
         },
         {
