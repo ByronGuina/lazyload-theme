@@ -1983,7 +1983,7 @@
         "editorInfo.foreground": "#83b1cf",
         "editorInfo.background": "#4490BF00",
         "editorInfo.border": "#4490BF00",
-        "editorGutter.background": "#1e1e1e",
+        "editorGutter.background": "#191816",
         "editorGutter.modifiedBackground": "#9aabb7",
         "editorGutter.addedBackground": "#a1c9b7",
         "editorGutter.deletedBackground": "#e7cab2",
