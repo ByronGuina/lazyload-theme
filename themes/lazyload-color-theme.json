@@ -354,7 +354,8 @@
             "name": "js variable readwrite",
             "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
             "settings": {
-                "foreground": "#d3d2d0"
+                "foreground": "#d3d2d0",
+                "fontStyle": "italic"
             }
         },
         {
@@ -689,14 +690,22 @@
             "name": "Type Name",
             "scope": "entity.name.type",
             "settings": {
-                "foreground": "#d3d2d0"
+                "foreground": "#8e8e8e"
             }
         },
         {
             "name": "Keyword Control",
             "scope": "keyword.control",
             "settings": {
-                "foreground": "#9aabb7"
+                "foreground": "#e7cab2"
+            }
+        },
+        {
+            "name": "JS/TS builtin types",
+            "scope": "support.type.builtin.tsx,support.type.builtin.ts",
+            "settings": {
+                "foreground": "#e7cab2",
+                "fontStyle": "italic"
             }
         },
         {
@@ -1268,9 +1277,9 @@
 
         {
             "name": "curly",
-            "scope": "meta.brace.curly.js,meta.curly.jsx,meta.curly.ts,meta.curly.tsx,punctuation.definition.block.tsx,punctuation.section.embedded.begin.tsx,punctuation.section.embedded.end.tsx",
+            "scope": "meta.brace.curly.js,meta.curly.jsx,meta.curly.ts,meta.curly.tsx,punctuation.definition.block.tsx,punctuation.section.embedded.begin.tsx,punctuation.section.embedded.end.tsx,meta.objectliteral.ts",
             "settings": {
-                "foreground": "#8e8e8e"
+                "foreground": "#d3d2d0"
             }
         },
         {
@@ -1783,9 +1792,9 @@
         },
         {
             "name": "js/ts italic",
-            "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+            "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super,variable.other.object.ts,meta.type.annotation.tsx,support.type.primitive.tsx,entity.name.type.module.tsx",
             "settings": {
-                "foreground": "#d3d2d0",
+                "foreground": "#8e8e8e",
                 "fontStyle": "italic"
             }
         },
