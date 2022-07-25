@@ -347,7 +347,7 @@
             "name": "entity.name.type.module",
             "scope": "entity.name.type.module",
             "settings": {
-                "foreground": "#d3d2d0"
+                "foreground": "#8e8e8e"
             }
         },
         {
@@ -655,7 +655,7 @@
             "name": "Classes",
             "scope": "entity.name.type.namespace",
             "settings": {
-                "foreground": "#d3d2d0"
+                "foreground": "#8e8e8e"
             }
         },
         {
